@@ -4,11 +4,9 @@ rate = 0.05
 time = 3
 
 # Here is the formula for the calculation.
-I = principal * rate * time
+Interest = principal * rate * time
 
 # printing the values giving in words
 print(f"For Principal = {principal} , Rate = {rate}, and Time = {time},")
 #The final answer
-print(f"The simple iinterest is {float(I)}")
-
-
+print(f"The simple iinterest is {float(Interest)}")
