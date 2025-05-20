@@ -11,3 +11,4 @@ Area = length * width
 
 # The output
 print(f"The area of the rectangle is: {Area}")
+
