@@ -21,4 +21,4 @@ match operation:
         
     case _:
         print("Cannot divide by zero.")
-print(f"tThe result is {result}.")
+print(f"The result is {result}.")
