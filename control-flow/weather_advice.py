@@ -1,5 +1,5 @@
 #Asking user for input on their weather condition
-weather= input("What is the weather like today? (sunny/rainy/cold): ")
+weather= input("What's the weather like today? (sunny/rainy/cold): ")
 
 #Using user"s input to give advice by implementig IF statements.
 if weather == "sunny":
