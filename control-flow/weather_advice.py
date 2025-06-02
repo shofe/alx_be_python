@@ -1,5 +1,5 @@
 #Asking user for input on their weather condition
-weather= input("What is the weather like today? (sunny/rainy/cold) ")
+weather= input("What is the weather like today? (sunny/rainy/cold): ")
 
 #Using user"s input to give advice by implementig IF statements.
 if weather == "sunny":
@@ -10,4 +10,4 @@ elif weather == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
-#The end
+
