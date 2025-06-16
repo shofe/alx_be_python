@@ -1,5 +1,5 @@
 #defining a function to perform arthimetic operations.
-def perform_operation(num1, num2,operation):
+def perform_operation(num1, num2, operation):
     match operation:
         case "add":
             return num1 + num2
@@ -7,9 +7,8 @@ def perform_operation(num1, num2,operation):
             return num1 - num2
         case "divide":
             if num2 == 0:
-                print("please another number")
-                return None
-            #return num1 / num2
+                return "Error: Cannot divide by zero."
+            return num1 / num2
         case "multiply":
             return num1 * num2
         case _:
