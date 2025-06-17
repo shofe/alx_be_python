@@ -6,7 +6,8 @@ def  display_current_datetime():
 
 
 def  calculate_future_date(future_date) -> datetime:
-    return datetime.now() +  timedelta(days=int(future_date))
+    future_date = datetime.now() +  timedelta(days=int(future_date))
+    return future_date
 
 
 print(f"Current date and time: {display_current_datetime()}")
