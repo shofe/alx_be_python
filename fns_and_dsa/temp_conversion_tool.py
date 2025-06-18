@@ -23,4 +23,4 @@ if temp.lower().strip("") == "c":
 elif temp.lower().strip("") == "f":
     print(f"{temp} is {convert_to_celsius(msg_1)} C")
 else:
-    print("You have entered an invalid request")
+    print("Invalid temperature. Please enter a numeric value.")
