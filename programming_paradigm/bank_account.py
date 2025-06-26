@@ -19,7 +19,7 @@ class BankAccount:   #Creating a class called BankAccount
             return True
         return False
 
-    def display_balance(self):
-        return(f"Your account balance is {self.account_balance}")
+    def display_balance(self, ):
+        print(f"Current Balance: ${float(self.account_balance):.2f}")
 
 
