@@ -12,7 +12,7 @@ def safe_divide(numerator, denominator):     #Defining a function that has the n
 
             answer = numerator / denominator
 
-            return f"Your result is {answer}"
+            return f"The result of the division is {answer}"
 
     except ValueError:
 
