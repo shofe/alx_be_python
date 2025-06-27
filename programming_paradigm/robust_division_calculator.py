@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):     #Defining a function that has the n
 
         if denominator == 0:
 
-            return ("Division by Zero is not allowed. ")
+            return ("Error: Cannot divide by zero.")
     
         else:
 
