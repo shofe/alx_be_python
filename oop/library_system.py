@@ -6,6 +6,9 @@ class Book:
 
     def get_details(self):
         return f"Title: {self.title}, Author: {self.author}"
+    
+    def __str__(self):
+        return self.get_details
 
 
 # Derived Class: EBook
@@ -14,9 +17,12 @@ class EBook(Book):
         super().__init__(title, author)
         self.file_size = file_size
 
-    def get_details(self):
+    def __str__ (self):
         return f"{super().get_details()}, File Size: {self.file_size}MB"
 
+
+    def __str__(self):
+        return self.get_details
 
 # Derived Class: PrintBook
 class PrintBook(Book):
@@ -24,9 +30,12 @@ class PrintBook(Book):
         super().__init__(title, author)
         self.page_count = page_count
 
-    def get_details(self):
+    def __str__(self):
         return f"{super().get_details()}, Pages: {self.page_count}"
 
+
+    def __str__(self):
+        return self.get_details
 
 # Composition Class: Library
 class Library:
