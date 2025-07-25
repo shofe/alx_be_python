@@ -47,4 +47,3 @@ class Library:
             print("Library Collection:")
             for book in self.books:
                 print(book)
-
